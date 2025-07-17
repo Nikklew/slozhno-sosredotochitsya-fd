@@ -17,13 +17,12 @@
   --p-text-color: #f1b2ce;
   --button-color: #ff0070;
   --title-decor-color: #000028;
-  --button-border-color: rgb(255, 0, 112, 0.4)
+  --button-border-color: rgb(255, 0, 112, 0.4);
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   .decorated-element {
-    display: block; }
+    display: block;
+  }
 }
-
-
