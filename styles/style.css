@@ -450,23 +450,10 @@
   }
 
   .for-laptop {
-    grid-row: span 2;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(313px, 1fr));
     gap: 20px;
-    grid-template-areas: "work food gadzhets";
-  }
-
-  .drop-concentration .item-multitasking {
-    grid-area: work;
-  }
-
-  .drop-concentration .item-food {
-    grid-area: food;
-  }
-
-  .drop-concentration .item-gadgets {
-    grid-area: gadzhets;
+    grid-auto-flow: row;
   }
 
   .drop-concentration h2 {
