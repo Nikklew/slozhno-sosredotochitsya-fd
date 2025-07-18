@@ -13,10 +13,10 @@
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
   --large-text-color: #ffc2e6;
-  --all-project-fontfam: "IBM Plex Mono", sans-serif;
   --p-text-color: #353430;
   --button-color: #353430;
   --title-decor-color: #353430;
+  --title-color: #353430;
   --button-border-color: rgb(53, 52, 48, 0.4);
 }
 
@@ -32,10 +32,10 @@
     --bg-color: #fff1f7;
     --accent-color: #ff8dcb;
     --large-text-color: #ffc2e6;
-    --all-project-fontfam: "IBM Plex Mono", sans-serif;
     --p-text-color: #353430;
     --button-color: #353430;
     --title-decor-color: #353430;
+    --title-color: #353430;
     --button-border-color: rrgb(53, 52, 48, 0.4);
   }
   .decorated-element {
